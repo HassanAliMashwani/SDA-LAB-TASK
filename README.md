@@ -3,7 +3,6 @@
 HOME TASK
 HASSAN ALI MASHWANI
  
- 
 Creator Principle - General Responsibility Assignment Software Principle (GRASP)
 The Creator is one of the GRASP (General Responsibility Assignment Software Patterns) principles, which are a set of guidelines for assigning responsibilities to classes and objects in object-oriented design. The Creator principle helps in determining which class should be responsible for creating instances of another class.
 Explanation
@@ -27,11 +26,11 @@ Sure! This Java code defines a simple order management system involving three ma
   - `getTotalPrice()`: Calculates the total price for that specific item (quantity multiplied by unit price).
 
  2. Order Class
-- **Purpose:** Represents a customer's order which can contain multiple `OrderItem` instances.
-- **Attributes:**
+- Purpose: Represents a customer's order which can contain multiple `OrderItem` instances.
+- Attributes:
   - `orderId`: Unique identifier for the order.
   - `items`: A list to store multiple `OrderItem` objects.
-- **Constructor:** Initializes the order with a unique `orderId`.
+- Constructor: Initializes the order with a unique `orderId`.
 - Methods:
   - `addItem(String productName, int quantity, double unitPrice)`: Creates a new `OrderItem` and adds it to the order.
   - `getItems()`: Returns the list of items in the order.
@@ -53,5 +52,13 @@ Sure! This Java code defines a simple order management system involving three ma
   - Two items are added to the order (a laptop and a mouse).
   - The order summary is printed to the console, including each item's name, quantity, and total price.
   - Finally, the total order amount is calculated and displayed.
+  - 
+Advantages:
+1.	Encapsulation: The `Order` class controls the creation of `OrderItem`, leading to better encapsulation.
+2.	Simplified Client Code: The client code (the part of the code that uses `Order` and `OrderItem`) is simplified since it doesn't need to know about the creation process of `OrderItem`.
+3.	Cohesion: The responsibility for managing order items is logically grouped within the `Order` class, making the system more cohesive.
+4.	
+Conclusion
+The Creator principle from GRASP is a powerful guideline that helps determine where object creation responsibilities should be placed. By following this principle, you ensure that your system is more organized, maintainable, and easier to understand. The Creator principle enhances cohesion and encapsulation, which are key to building robust and scalable object-oriented systems.
 
 
