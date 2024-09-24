@@ -7,7 +7,7 @@
 # HOME TASK
 # HASSAN ALI MASHWANI
  
-#Creator Principle - General Responsibility Assignment Software Principle (GRASP)
+# Creator Principle - General Responsibility Assignment Software Principle (GRASP)
 The Creator is one of the GRASP (General Responsibility Assignment Software Patterns) principles, which are a set of guidelines for assigning responsibilities to classes and objects in object-oriented design. The Creator principle helps in determining which class should be responsible for creating instances of another class.
 #Explanation
 The Creator principle suggests that a class should be responsible for creating an instance of another class if one or more of the following criteria are true:
