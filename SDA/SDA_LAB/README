@@ -17,24 +17,6 @@ This project implements the Observer design pattern in two parts:
 
 ## Project Structure
 
-
-├── sda_lab/
-│   ├── Subject.java
-│   ├── Observer.java
-│   ├── BinaryObserver.java
-│   ├── OctalObserver.java
-│   ├── HexaObserver.java
-│   └── ObserverPatternDemo.java
-│
-└── observer.eventsmanagement/
-    ├── EventManager.java
-    ├── Editor.java
-    ├── EventListener.java
-    ├── EmailNotificationListener.java
-    ├── LogOpenListener.java
-    ├── SMSSupportListener.java
-    └── Demo.java
-
 ## Part 1: Basic Observer Pattern
 
 ### Description
