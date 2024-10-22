@@ -16,7 +16,22 @@ This project implements the Observer design pattern in two parts:
 2. **Event Management System**: An extension of the Observer pattern from refactoring.guru, including an SMS notification feature that checks the length of messages before sending.
 
 ## Project Structure
-
+├── sda_lab/<br>
+│   ├── Subject.java<br>
+│   ├── Observer.java<br>
+│   ├── BinaryObserver.java<br>
+│   ├── OctalObserver.java<br>
+│   ├── HexaObserver.java<br>
+│   └── ObserverPatternDemo.java<br>
+│<br>
+└── observer.eventsmanagement/<br>
+    ├── EventManager.java<br>
+    ├── Editor.java<br>
+    ├── EventListener.java<br>
+    ├── EmailNotificationListener.java<br>
+    ├── LogOpenListener.java<br>
+    ├── SMSSupportListener.java<br>
+    └── Demo.java
 ## Part 1: Basic Observer Pattern
 
 ### Description
