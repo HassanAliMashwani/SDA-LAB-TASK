@@ -19,7 +19,8 @@ This Java application is an Auction Management System that enables users to mana
 
 ---
 
-## How to Run the Application
+# How to Run the Application
+## Run the Code in VS Code
 
 1. **Prerequisites**:
    - Ensure you have Java Development Kit (JDK) installed (version 8 or higher).
